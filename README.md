@@ -25,7 +25,7 @@ Selenium tests examples
 8. To run test in maven execute `mvn clean test` in `Raynevun/selenium` folder
 
 ## How to run tests in Firefox:
-1. Download webdriver for [Firefox](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+1. Download webdriver for [Firefox](https://github.com/mozilla/geckodriver/releases)
 2. Add path to webdriver to ['PATH'](https://java.com/en/download/help/path.xml) environment variable
 3. To run tests in Firefox with maven run `mvn clean test -Dbrowser=firefox`
 4. To run tests in Firefox with IntelliJ IDEA add parameters to `VM options`, e.g. `-Dbrowser=firefox`
